@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31E16881CCCCD1200ECB2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E16871CCCCD1200ECB2DE /* AppDelegate.swift */; };
+		F31E168A1CCCCD1200ECB2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E16891CCCCD1200ECB2DE /* ViewController.swift */; };
+		F31E168C1CCCCD1200ECB2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31E168B1CCCCD1200ECB2DE /* Assets.xcassets */; };
+		F31E168F1CCCCD1200ECB2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31E168D1CCCCD1200ECB2DE /* Main.storyboard */; };
+		F31E169A1CCCCD1200ECB2DE /* TimePrinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E16991CCCCD1200ECB2DE /* TimePrinterTests.swift */; };
+		F31E16A51CCCCD1200ECB2DE /* TimePrinterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E16A41CCCCD1200ECB2DE /* TimePrinterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F31E16961CCCCD1200ECB2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31E167C1CCCCD1100ECB2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31E16831CCCCD1200ECB2DE;
+			remoteInfo = TimePrinter;
+		};
+		F31E16A11CCCCD1200ECB2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31E167C1CCCCD1100ECB2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31E16831CCCCD1200ECB2DE;
+			remoteInfo = TimePrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F31E16841CCCCD1200ECB2DE /* TimePrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E16871CCCCD1200ECB2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F31E16891CCCCD1200ECB2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F31E168B1CCCCD1200ECB2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31E168E1CCCCD1200ECB2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F31E16901CCCCD1200ECB2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31E16951CCCCD1200ECB2DE /* TimePrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E16991CCCCD1200ECB2DE /* TimePrinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePrinterTests.swift; sourceTree = "<group>"; };
+		F31E169B1CCCCD1200ECB2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31E16A01CCCCD1200ECB2DE /* TimePrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E16A41CCCCD1200ECB2DE /* TimePrinterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePrinterUITests.swift; sourceTree = "<group>"; };
+		F31E16A61CCCCD1200ECB2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31E16811CCCCD1200ECB2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E16921CCCCD1200ECB2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E169D1CCCCD1200ECB2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31E167B1CCCCD1100ECB2DE = {
+			isa = PBXGroup;
+			children = (
+				F31E16861CCCCD1200ECB2DE /* TimePrinter */,
+				F31E16981CCCCD1200ECB2DE /* TimePrinterTests */,
+				F31E16A31CCCCD1200ECB2DE /* TimePrinterUITests */,
+				F31E16851CCCCD1200ECB2DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31E16851CCCCD1200ECB2DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31E16841CCCCD1200ECB2DE /* TimePrinter.app */,
+				F31E16951CCCCD1200ECB2DE /* TimePrinterTests.xctest */,
+				F31E16A01CCCCD1200ECB2DE /* TimePrinterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31E16861CCCCD1200ECB2DE /* TimePrinter */ = {
+			isa = PBXGroup;
+			children = (
+				F31E16871CCCCD1200ECB2DE /* AppDelegate.swift */,
+				F31E16891CCCCD1200ECB2DE /* ViewController.swift */,
+				F31E168B1CCCCD1200ECB2DE /* Assets.xcassets */,
+				F31E168D1CCCCD1200ECB2DE /* Main.storyboard */,
+				F31E16901CCCCD1200ECB2DE /* Info.plist */,
+			);
+			path = TimePrinter;
+			sourceTree = "<group>";
+		};
+		F31E16981CCCCD1200ECB2DE /* TimePrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F31E16991CCCCD1200ECB2DE /* TimePrinterTests.swift */,
+				F31E169B1CCCCD1200ECB2DE /* Info.plist */,
+			);
+			path = TimePrinterTests;
+			sourceTree = "<group>";
+		};
+		F31E16A31CCCCD1200ECB2DE /* TimePrinterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F31E16A41CCCCD1200ECB2DE /* TimePrinterUITests.swift */,
+				F31E16A61CCCCD1200ECB2DE /* Info.plist */,
+			);
+			path = TimePrinterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31E16831CCCCD1200ECB2DE /* TimePrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E16A91CCCCD1200ECB2DE /* Build configuration list for PBXNativeTarget "TimePrinter" */;
+			buildPhases = (
+				F31E16801CCCCD1200ECB2DE /* Sources */,
+				F31E16811CCCCD1200ECB2DE /* Frameworks */,
+				F31E16821CCCCD1200ECB2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimePrinter;
+			productName = TimePrinter;
+			productReference = F31E16841CCCCD1200ECB2DE /* TimePrinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31E16941CCCCD1200ECB2DE /* TimePrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E16AC1CCCCD1200ECB2DE /* Build configuration list for PBXNativeTarget "TimePrinterTests" */;
+			buildPhases = (
+				F31E16911CCCCD1200ECB2DE /* Sources */,
+				F31E16921CCCCD1200ECB2DE /* Frameworks */,
+				F31E16931CCCCD1200ECB2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31E16971CCCCD1200ECB2DE /* PBXTargetDependency */,
+			);
+			name = TimePrinterTests;
+			productName = TimePrinterTests;
+			productReference = F31E16951CCCCD1200ECB2DE /* TimePrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F31E169F1CCCCD1200ECB2DE /* TimePrinterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E16AF1CCCCD1200ECB2DE /* Build configuration list for PBXNativeTarget "TimePrinterUITests" */;
+			buildPhases = (
+				F31E169C1CCCCD1200ECB2DE /* Sources */,
+				F31E169D1CCCCD1200ECB2DE /* Frameworks */,
+				F31E169E1CCCCD1200ECB2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31E16A21CCCCD1200ECB2DE /* PBXTargetDependency */,
+			);
+			name = TimePrinterUITests;
+			productName = TimePrinterUITests;
+			productReference = F31E16A01CCCCD1200ECB2DE /* TimePrinterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31E167C1CCCCD1100ECB2DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Microcore Team";
+				TargetAttributes = {
+					F31E16831CCCCD1200ECB2DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F31E16941CCCCD1200ECB2DE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F31E16831CCCCD1200ECB2DE;
+					};
+					F31E169F1CCCCD1200ECB2DE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F31E16831CCCCD1200ECB2DE;
+					};
+				};
+			};
+			buildConfigurationList = F31E167F1CCCCD1100ECB2DE /* Build configuration list for PBXProject "TimePrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31E167B1CCCCD1100ECB2DE;
+			productRefGroup = F31E16851CCCCD1200ECB2DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31E16831CCCCD1200ECB2DE /* TimePrinter */,
+				F31E16941CCCCD1200ECB2DE /* TimePrinterTests */,
+				F31E169F1CCCCD1200ECB2DE /* TimePrinterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31E16821CCCCD1200ECB2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E168C1CCCCD1200ECB2DE /* Assets.xcassets in Resources */,
+				F31E168F1CCCCD1200ECB2DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E16931CCCCD1200ECB2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E169E1CCCCD1200ECB2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31E16801CCCCD1200ECB2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E168A1CCCCD1200ECB2DE /* ViewController.swift in Sources */,
+				F31E16881CCCCD1200ECB2DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E16911CCCCD1200ECB2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E169A1CCCCD1200ECB2DE /* TimePrinterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E169C1CCCCD1200ECB2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E16A51CCCCD1200ECB2DE /* TimePrinterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31E16971CCCCD1200ECB2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31E16831CCCCD1200ECB2DE /* TimePrinter */;
+			targetProxy = F31E16961CCCCD1200ECB2DE /* PBXContainerItemProxy */;
+		};
+		F31E16A21CCCCD1200ECB2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31E16831CCCCD1200ECB2DE /* TimePrinter */;
+			targetProxy = F31E16A11CCCCD1200ECB2DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F31E168D1CCCCD1200ECB2DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31E168E1CCCCD1200ECB2DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31E16A71CCCCD1200ECB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F31E16A81CCCCD1200ECB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F31E16AA1CCCCD1200ECB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimePrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.mynook.team.TimePrinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F31E16AB1CCCCD1200ECB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimePrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.mynook.team.TimePrinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F31E16AD1CCCCD1200ECB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimePrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.mynook.team.TimePrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimePrinter.app/Contents/MacOS/TimePrinter";
+			};
+			name = Debug;
+		};
+		F31E16AE1CCCCD1200ECB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimePrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.mynook.team.TimePrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimePrinter.app/Contents/MacOS/TimePrinter";
+			};
+			name = Release;
+		};
+		F31E16B01CCCCD1200ECB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimePrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.mynook.team.TimePrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimePrinter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F31E16B11CCCCD1200ECB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimePrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.mynook.team.TimePrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimePrinter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31E167F1CCCCD1100ECB2DE /* Build configuration list for PBXProject "TimePrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E16A71CCCCD1200ECB2DE /* Debug */,
+				F31E16A81CCCCD1200ECB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31E16A91CCCCD1200ECB2DE /* Build configuration list for PBXNativeTarget "TimePrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E16AA1CCCCD1200ECB2DE /* Debug */,
+				F31E16AB1CCCCD1200ECB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F31E16AC1CCCCD1200ECB2DE /* Build configuration list for PBXNativeTarget "TimePrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E16AD1CCCCD1200ECB2DE /* Debug */,
+				F31E16AE1CCCCD1200ECB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F31E16AF1CCCCD1200ECB2DE /* Build configuration list for PBXNativeTarget "TimePrinterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E16B01CCCCD1200ECB2DE /* Debug */,
+				F31E16B11CCCCD1200ECB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31E167C1CCCCD1100ECB2DE /* Project object */;
+}
